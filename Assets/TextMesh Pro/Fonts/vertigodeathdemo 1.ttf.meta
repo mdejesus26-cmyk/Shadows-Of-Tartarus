@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 9be7d21b8366c4f879bcd16755ed50b2
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Vertigo Death - Demo
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 48d28579c27f94bf5b87e85bd45a9ed7, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
