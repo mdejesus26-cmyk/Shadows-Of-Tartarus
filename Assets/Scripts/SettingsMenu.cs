@@ -4,17 +4,15 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class MainMenu : MonoBehaviour
+public class SettingsMenu : MonoBehaviour
 {
     public GameObject mainMenu;
     public GameObject settingsMenu;
-    public Button startButton;
-    public Button settingsButton;
+    public Button backButton;
     // Start is called before the first frame update
     void Start()
     {
-        startButton.onClick.AddListener(Play);
-        settingsButton.onClick.AddListener(Settings);
+        backButton.onClick.AddListener(Back);
     }
 
     // Update is called once per frame
@@ -23,15 +21,9 @@ public class MainMenu : MonoBehaviour
         
     }
 
-    public void Play()
+    public void Back()
     {
-        mainMenu.SetActive(false);
+        settingsMenu.SetActive(false);
+        mainMenu.SetActive(true);
     }
-
-    public void Settings()
-    {
-        mainMenu.SetActive(false);
-        settingsMenu.SetActive(true);
-    }
-
 }
