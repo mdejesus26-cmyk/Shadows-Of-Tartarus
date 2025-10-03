@@ -10,11 +10,13 @@ public class MainMenu : MonoBehaviour
     public GameObject settingsMenu;
     public Button startButton;
     public Button settingsButton;
+    public Button quitButton;
     // Start is called before the first frame update
     void Start()
     {
         startButton.onClick.AddListener(Play);
         settingsButton.onClick.AddListener(Settings);
+        quitButton.onClick.AddListener(Quit);
     }
 
     // Update is called once per frame
@@ -25,13 +27,18 @@ public class MainMenu : MonoBehaviour
 
     public void Play()
     {
-        mainMenu.SetActive(false);
+        UnityEngine.SceneManagement.SceneManager.LoadScene("World");
     }
 
     public void Settings()
     {
         mainMenu.SetActive(false);
         settingsMenu.SetActive(true);
+    }
+
+    public void Quit()
+    {
+        UnityEditor.EditorApplication.isPlaying = false;
     }
 
 }

@@ -788,6 +788,7 @@ MonoBehaviour:
   settingsMenu: {fileID: 145553944}
   startButton: {fileID: 758268143}
   settingsButton: {fileID: 620020005}
+  quitButton: {fileID: 1011607048}
 --- !u!1 &677196041
 GameObject:
   m_ObjectHideFlags: 0
@@ -1280,7 +1281,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1011607049}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 658067925}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: Quit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1011607049
 MonoBehaviour:
   m_ObjectHideFlags: 0
