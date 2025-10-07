@@ -1,12 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class GameManager : MonoBehaviour
+public class QuitConfirm : MonoBehaviour
 {
     public GameObject pauseMenu;
+    public GameObject confirmMenu;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,11 +16,17 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.P))
-        {  
-            pauseMenu.SetActive(true);
-            Time.timeScale = 0;
-        }
+        
     }
 
+    public void Confirm()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Main Menu");
+    }
+
+    public void Cancel()
+    {
+        confirmMenu.SetActive(false);
+        pauseMenu.SetActive(true);
+    }
 }
