@@ -21,7 +21,7 @@ public class QuitConfirm : MonoBehaviour
 
     public void Confirm()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Main Menu");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
     }
 
     public void Cancel()
