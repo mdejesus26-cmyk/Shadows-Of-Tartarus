@@ -4,21 +4,27 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float horizontalInput;
-    public float verticalInput;
-    private Rigidbody playerRb;
+    public float moveSpeed;
+    private Rigidbody rb;
+    private Vector2 movementInput;
+
     // Start is called before the first frame update
     void Start()
     {
-        playerRb = GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        horizontalInput = Input.GetAxis("Horizontal");
-        verticalInput = Input.GetAxis("Vertical");
-        transform.Translate(Vector3.right * Time.deltaTime * 5 * horizontalInput);
-        transform.Translate(Vector3.up * Time.deltaTime * 5 * verticalInput);
+        movementInput.x = Input.GetAxisRaw("Horizontal");
+        // Either the inputs A/D or the horizontal arrow keys can work.
+        movementInput.y = Input.GetAxisRaw("Vertical");
+        // Either the inputs W/S or the vertical arrow keys can work.
+    }
+
+    void FixedUpdate()
+    {
+        rb.velocity = movementInput * moveSpeed;
     }
 }
