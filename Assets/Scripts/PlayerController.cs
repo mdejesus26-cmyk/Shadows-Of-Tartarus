@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed;
     private Rigidbody rb;
     private Vector2 movementInput;
+    public int mp = 10;
 
     // Start is called before the first frame update
     void Start()

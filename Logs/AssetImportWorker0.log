@@ -1,0 +1,243 @@
+Unity Editor version:    2020.3.27f1 (e759542391ea)
+Branch:                  2020.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.7.10 (Build 20G1427)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/2020.3.27f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/game56/Shadows Of Tartarus
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52371
+Successfully changed project path to: /Users/game56/Shadows Of Tartarus
+Could not lock editor preferences. Preferences updates for this instance of Unity will not be saved./Users/game56/Shadows Of Tartarus
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 24.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.27f1 (e759542391ea)
+[Subsystems] Discovering subsystems at path /Applications/2020.3.27f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/game56/Shadows Of Tartarus/Assets
+GfxDevice: creating device client; threaded=0
+2025-10-30 14:00:46.167 Unity[81086:22450538] iMac preferred device: AMD Radeon Pro 5500 XT (high power)
+2025-10-30 14:00:46.167 Unity[81086:22450538] Metal devices available: 1
+2025-10-30 14:00:46.167 Unity[81086:22450538] 0: AMD Radeon Pro 5500 XT (high power)
+2025-10-30 14:00:46.167 Unity[81086:22450538] Using device AMD Radeon Pro 5500 XT (high power)
+Initializing Metal device caps: AMD Radeon Pro 5500 XT
+Initialize mono
+Mono path[0] = '/Applications/2020.3.27f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56086
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/2020.3.27f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000419 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 23.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.513 seconds
+Domain Reload Profiling:
+	ReloadAssembly (513ms)
+		BeginReloadAssembly (36ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (412ms)
+			LoadAssemblies (35ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (156ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (151ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (24ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (91ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001337 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.901 seconds
+Domain Reload Profiling:
+	ReloadAssembly (901ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (715ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (277ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (238ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (185ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.000949 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.008424 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/2020.3.27f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Initializing Unity extensions:
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1529 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 180.5 MB.
+System memory in use after: 179.7 MB.
+
+Unloading 90 unused Assets to reduce memory usage. Loaded Objects now: 2001.
+Total: 2.396621 ms (FindLiveObjects: 0.101793 ms CreateObjectMapping: 0.037386 ms MarkObjects: 1.883647 ms  DeleteObjects: 0.373180 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scriptable Objects/Card System/PlayerDeck.asset
+  artifactKey: Guid(121e729b299e94af5b53a95720d8ff9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptable Objects/Card System/PlayerDeck.asset using Guid(121e729b299e94af5b53a95720d8ff9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab77407e085b28b3b95c8f6ec42bfbbd') in 0.557322 seconds 
+  Import took 0.562131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Scriptable Objects/Card System/Flare Lv 1.asset
+  artifactKey: Guid(351e777a5462e43c78c6df3b15008c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptable Objects/Card System/Flare Lv 1.asset using Guid(351e777a5462e43c78c6df3b15008c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd8da89f8dcbc3498660135b488cf6c5') in 0.001616 seconds 
+  Import took 0.003286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Scriptable Objects/Card System/Juice.asset
+  artifactKey: Guid(54b1a901caed34f0a9b9e463f4a31e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptable Objects/Card System/Juice.asset using Guid(54b1a901caed34f0a9b9e463f4a31e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29202b91c4534f743207fb3c6887a2c1') in 0.001429 seconds 
+  Import took 0.003087 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.4 MB.
+System memory in use after: 152.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2001.
+Total: 2.402019 ms (FindLiveObjects: 0.114146 ms CreateObjectMapping: 0.047090 ms MarkObjects: 2.231816 ms  DeleteObjects: 0.008462 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 24.234154 seconds.
+  path: Assets/Sprites/New Piskel s.o.t card v2-1.png.png
+  artifactKey: Guid(3c557f15cae9b43cb9fccacaa75d871a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/New Piskel s.o.t card v2-1.png.png using Guid(3c557f15cae9b43cb9fccacaa75d871a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed49cd6fea14ff289a57cfb5c2a74b7') in 0.689383 seconds 
+  Import took 0.693987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.408596 seconds.
+  path: Assets/Sprites/New Piskel s.o.t card v2-1.png.png
+  artifactKey: Guid(3c557f15cae9b43cb9fccacaa75d871a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/New Piskel s.o.t card v2-1.png.png using Guid(3c557f15cae9b43cb9fccacaa75d871a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '313a581e07f2281bba42fe8cc9a3c88c') in 0.031005 seconds 
+  Import took 0.033302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.372107 seconds.
+  path: Assets/Scriptable Objects/Card System/Flare Lv 1.asset
+  artifactKey: Guid(351e777a5462e43c78c6df3b15008c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptable Objects/Card System/Flare Lv 1.asset using Guid(351e777a5462e43c78c6df3b15008c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b90b52c46c5fcdf8ecb342898f779ee') in 0.003925 seconds 
+  Import took 0.005832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Scriptable Objects/Card System/Strike Lv 1.asset
+  artifactKey: Guid(fc693c46769aa4290be453fd8aadac91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptable Objects/Card System/Strike Lv 1.asset using Guid(fc693c46769aa4290be453fd8aadac91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d576df55fdab8deaa4efdf0d1bcdf48') in 0.004067 seconds 
+  Import took 0.005767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Scriptable Objects/Card System/Strike Lv 2.asset
+  artifactKey: Guid(07ddebe3cd5c5492aab4a7f5468cf9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptable Objects/Card System/Strike Lv 2.asset using Guid(07ddebe3cd5c5492aab4a7f5468cf9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c72f68782d013ebe43051fc007cdba0') in 0.003701 seconds 
+  Import took 0.005501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Scriptable Objects/Card System/Juice.asset
+  artifactKey: Guid(54b1a901caed34f0a9b9e463f4a31e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptable Objects/Card System/Juice.asset using Guid(54b1a901caed34f0a9b9e463f4a31e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ee6aa1b868db3302ade0442930286e') in 0.003519 seconds 
+  Import took 0.005195 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
