@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody rb;
     private Vector2 movementInput;
     public int mp = 10;
+    public bool hasKey;
 
     // Start is called before the first frame update
     void Start()
@@ -27,5 +28,13 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         rb.velocity = movementInput * moveSpeed;
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if(other.CompareTag("Key"))
+        {
+            hasKey = true;
+        }
     }
 }
