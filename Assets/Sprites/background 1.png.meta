@@ -276,7 +276,7 @@ TextureImporter:
       213: 2025351650942226320
     second: background 1_90
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -293,10 +293,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -335,6 +337,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -346,6 +350,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -358,6 +363,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -2284,9 +2290,100 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      background 1_0: -5608819318807225731
+      background 1_1: 4526217851618455030
+      background 1_10: 2787338089605524398
+      background 1_11: 2525604541945471340
+      background 1_12: 5692476267915950571
+      background 1_13: -819295829106187121
+      background 1_14: 6730965764780085674
+      background 1_15: -2528232751190729062
+      background 1_16: -3322840919109194521
+      background 1_17: 3267157369785833651
+      background 1_18: -4881673404370670211
+      background 1_19: -7468152277278813972
+      background 1_2: 5157433636184523772
+      background 1_20: 5722340082823008392
+      background 1_21: -1062513940869843946
+      background 1_22: 1472020704228439670
+      background 1_23: -7242924537822407436
+      background 1_24: 4859580244420463300
+      background 1_25: -168317593815065472
+      background 1_26: 8477525024812718297
+      background 1_27: -5419312683710062289
+      background 1_28: 2214820100121637184
+      background 1_29: 516700150074198483
+      background 1_3: -8881886651249918157
+      background 1_30: 8687531823500557132
+      background 1_31: 101052444154349170
+      background 1_32: 300044973309492584
+      background 1_33: 7601679867754531017
+      background 1_34: 1823018755708307625
+      background 1_35: -8942282625215350529
+      background 1_36: -719488993452220165
+      background 1_37: 8359341835309478995
+      background 1_38: 3413314447608269753
+      background 1_39: -6533800447597777482
+      background 1_4: 6384842385462156760
+      background 1_40: -5615756591751143579
+      background 1_41: -183937560922299805
+      background 1_42: 9929211073096132
+      background 1_43: -3038855831756440792
+      background 1_44: 5903870258474609465
+      background 1_45: 2128277227367200705
+      background 1_46: -4201734261850051318
+      background 1_47: 5403971653439305771
+      background 1_48: 6303834686474973236
+      background 1_49: -2648933532313189792
+      background 1_5: -3256684057465025971
+      background 1_50: -4492615726281664706
+      background 1_51: 6472626171221326201
+      background 1_52: -2096244067577082093
+      background 1_53: -972623370896698799
+      background 1_54: -6933895257314201185
+      background 1_55: -6624516172599852280
+      background 1_56: -1389288740309755169
+      background 1_57: -4398392253998476038
+      background 1_58: -6465164751875852472
+      background 1_59: 1016957771860207651
+      background 1_6: -2700212886923169494
+      background 1_60: -6216081958313622218
+      background 1_61: -5522741189376336261
+      background 1_62: -5536293881003379611
+      background 1_63: 8937839315079268694
+      background 1_64: -8644703854069257140
+      background 1_65: 1123698459673082454
+      background 1_66: -8291714517331924823
+      background 1_67: 4675519760214588417
+      background 1_68: 6565094195384477746
+      background 1_69: -9141632888918968217
+      background 1_7: -3969353615219324951
+      background 1_70: 8181502259724615398
+      background 1_71: 8306357208852416069
+      background 1_72: -756644906570776571
+      background 1_73: -6380024911665979941
+      background 1_74: -5707909716954299137
+      background 1_75: -5878250155496096040
+      background 1_76: -1679499287035358276
+      background 1_77: 3464810205714534305
+      background 1_78: -630748841295826987
+      background 1_79: -4895373938515291157
+      background 1_8: -1585676409743249314
+      background 1_80: 3505611392063167906
+      background 1_81: 979721847687222776
+      background 1_82: -2125972056318219194
+      background 1_83: -8842893619835115533
+      background 1_84: 1213239800911425926
+      background 1_85: 3055026715220610860
+      background 1_86: 6380216339613639392
+      background 1_87: 2942525612041250071
+      background 1_88: -848013416139364477
+      background 1_89: -7354380556948338958
+      background 1_9: 1822650957276318006
+      background 1_90: 2025351650942226320
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
