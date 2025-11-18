@@ -9,6 +9,8 @@ public class LevelSwitcher : MonoBehaviour
     public GameObject player;
     public GameObject level1;
     public GameObject level2;
+    public GameObject dialogue;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +25,7 @@ public class LevelSwitcher : MonoBehaviour
             level2.SetActive(true);
             level1.SetActive(false);
             playerScript.hasKey = false;
+            dialogue.SetActive(true);
         }
     }
 }

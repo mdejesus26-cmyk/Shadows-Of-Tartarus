@@ -17,3 +17,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 07ddebe3cd5c5492aab4a7f5468cf9bd, type: 2}
   - {fileID: 11400000, guid: 351e777a5462e43c78c6df3b15008c36, type: 2}
   - {fileID: 11400000, guid: 54b1a901caed34f0a9b9e463f4a31e23, type: 2}
+  cardPrefab: {fileID: 7498012259238383568, guid: 9e8d8d3956851491aac0050884f721fd, type: 3}
