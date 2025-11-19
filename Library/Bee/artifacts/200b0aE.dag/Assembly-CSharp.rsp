@@ -346,6 +346,7 @@
 "Assets/Scripts/CardSO.cs"
 "Assets/Scripts/DeckMenu.cs"
 "Assets/Scripts/DeckSO.cs"
+"Assets/Scripts/DialoguePopup.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/LevelSwitcher.cs"
 "Assets/Scripts/MainMenu.cs"
