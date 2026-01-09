@@ -286,7 +286,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 106,
       "PayloadLength": 50,
-      "PayloadDebugContentSnippet": "/Users/game34/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/game56/Documents/GitHub",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEngine.TestRunner.UnityAdditionalFile.txt"
@@ -312,7 +312,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 40773,
       "PayloadLength": 63,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/game34/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/game56/Docume",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEngine.TestRunner.rsp2"
@@ -2334,7 +2334,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 48398,
       "PayloadLength": 50,
-      "PayloadDebugContentSnippet": "/Users/game34/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/game56/Documents/GitHub",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.UnityAdditionalFile.txt"
@@ -2360,7 +2360,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 82837,
       "PayloadLength": 63,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/game34/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/game56/Docume",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.rsp2"
@@ -2944,7 +2944,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 90633,
       "PayloadLength": 50,
-      "PayloadDebugContentSnippet": "/Users/game34/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/game56/Documents/GitHub",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEditor.TestRunner.UnityAdditionalFile.txt"
@@ -2970,7 +2970,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 137283,
       "PayloadLength": 63,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/game34/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/game56/Docume",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEditor.TestRunner.rsp2"
@@ -3638,7 +3638,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 145072,
       "PayloadLength": 50,
-      "PayloadDebugContentSnippet": "/Users/game34/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/game56/Documents/GitHub",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.UnityAdditionalFile.txt"
@@ -3664,7 +3664,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 176574,
       "PayloadLength": 63,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/game34/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/game56/Docume",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.rsp2"
@@ -4225,7 +4225,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 184692,
       "PayloadLength": 50,
-      "PayloadDebugContentSnippet": "/Users/game34/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/game56/Documents/GitHub",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.2D.Sprite.Editor.UnityAdditionalFile.txt"
@@ -4251,7 +4251,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 216686,
       "PayloadLength": 63,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/game34/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/game56/Docume",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.2D.Sprite.Editor.rsp2"
@@ -4796,7 +4796,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 224888,
       "PayloadLength": 50,
-      "PayloadDebugContentSnippet": "/Users/game34/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/game56/Documents/GitHub",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.2D.Tilemap.Editor.UnityAdditionalFile.txt"
@@ -4822,7 +4822,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 260980,
       "PayloadLength": 63,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/game34/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/game56/Docume",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.2D.Tilemap.Editor.rsp2"
@@ -5399,7 +5399,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 269203,
       "PayloadLength": 50,
-      "PayloadDebugContentSnippet": "/Users/game34/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/game56/Documents/GitHub",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.AI.Navigation.Editor.ConversionSystem.UnityAdditionalFile.txt"
@@ -5425,7 +5425,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 298797,
       "PayloadLength": 63,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/game34/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/game56/Docume",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.AI.Navigation.Editor.ConversionSystem.rsp2"
@@ -5926,7 +5926,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 307016,
       "PayloadLength": 50,
-      "PayloadDebugContentSnippet": "/Users/game34/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/game56/Documents/GitHub",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.AI.Navigation.UnityAdditionalFile.txt"
@@ -5952,7 +5952,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 334834,
       "PayloadLength": 63,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/game34/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/game56/Docume",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.AI.Navigation.rsp2"
@@ -6434,7 +6434,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 342786,
       "PayloadLength": 50,
-      "PayloadDebugContentSnippet": "/Users/game34/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/game56/Documents/GitHub",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.PlasticSCM.Editor.UnityAdditionalFile.txt"
@@ -6460,7 +6460,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 403411,
       "PayloadLength": 63,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/game34/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/game56/Docume",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.PlasticSCM.Editor.rsp2"
@@ -7286,7 +7286,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 411524,
       "PayloadLength": 50,
-      "PayloadDebugContentSnippet": "/Users/game34/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/game56/Documents/GitHub",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Rider.Editor.UnityAdditionalFile.txt"
@@ -7312,7 +7312,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 443758,
       "PayloadLength": 63,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/game34/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/game56/Docume",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Rider.Editor.rsp2"
@@ -7839,7 +7839,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 451779,
       "PayloadLength": 50,
-      "PayloadDebugContentSnippet": "/Users/game34/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/game56/Documents/GitHub",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.TextMeshPro.UnityAdditionalFile.txt"
@@ -7865,7 +7865,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 484375,
       "PayloadLength": 63,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/game34/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/game56/Docume",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.TextMeshPro.rsp2"
@@ -8401,7 +8401,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 492316,
       "PayloadLength": 50,
-      "PayloadDebugContentSnippet": "/Users/game34/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/game56/Documents/GitHub",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.UnityAdditionalFile.txt"
@@ -8427,7 +8427,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 525939,
       "PayloadLength": 63,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/game34/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/game56/Docume",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.rsp2"
@@ -8977,7 +8977,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 533882,
       "PayloadLength": 50,
-      "PayloadDebugContentSnippet": "/Users/game34/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/game56/Documents/GitHub",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.UnityAdditionalFile.txt"
@@ -9003,7 +9003,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 563207,
       "PayloadLength": 63,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/game34/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/game56/Docume",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.rsp2"
@@ -9503,7 +9503,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 571408,
       "PayloadLength": 50,
-      "PayloadDebugContentSnippet": "/Users/game34/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/game56/Documents/GitHub",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VisualStudio.Editor.UnityAdditionalFile.txt"
@@ -9529,7 +9529,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 603770,
       "PayloadLength": 63,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/game34/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/game56/Docume",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VisualStudio.Editor.rsp2"
@@ -10059,7 +10059,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 611807,
       "PayloadLength": 50,
-      "PayloadDebugContentSnippet": "/Users/game34/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/game56/Documents/GitHub",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.AI.Navigation.Editor.UnityAdditionalFile.txt"
@@ -10085,7 +10085,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 641514,
       "PayloadLength": 63,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/game34/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/game56/Docume",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.AI.Navigation.Editor.rsp2"
@@ -10632,7 +10632,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 649905,
       "PayloadLength": 50,
-      "PayloadDebugContentSnippet": "/Users/game34/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/game56/Documents/GitHub",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.CollabProxy.Editor.UnityAdditionalFile.txt"
@@ -10658,7 +10658,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 678665,
       "PayloadLength": 63,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/game34/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/game56/Docume",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.CollabProxy.Editor.rsp2"
@@ -11173,7 +11173,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 686954,
       "PayloadLength": 50,
-      "PayloadDebugContentSnippet": "/Users/game34/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/game56/Documents/GitHub",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.TextMeshPro.Editor.UnityAdditionalFile.txt"
@@ -11199,7 +11199,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 720042,
       "PayloadLength": 63,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/game34/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/game56/Docume",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.TextMeshPro.Editor.rsp2"
@@ -11761,7 +11761,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 728322,
       "PayloadLength": 50,
-      "PayloadDebugContentSnippet": "/Users/game34/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/game56/Documents/GitHub",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.Editor.UnityAdditionalFile.txt"
@@ -11787,7 +11787,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 781019,
       "PayloadLength": 63,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/game34/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/game56/Docume",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.Editor.rsp2"
@@ -12573,7 +12573,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 789299,
       "PayloadLength": 50,
-      "PayloadDebugContentSnippet": "/Users/game34/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/game56/Documents/GitHub",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.AI.Navigation.Updater.UnityAdditionalFile.txt"
@@ -12599,7 +12599,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 818626,
       "PayloadLength": 63,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/game34/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/game56/Docume",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.AI.Navigation.Updater.rsp2"
@@ -13126,7 +13126,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 827096,
       "PayloadLength": 50,
-      "PayloadDebugContentSnippet": "/Users/game34/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/game56/Documents/GitHub",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt"
@@ -13138,7 +13138,7 @@
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
       "PayloadOffset": 827231,
-      "PayloadLength": 28020,
+      "PayloadLength": 28054,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -13150,7 +13150,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 855337,
+      "PayloadOffset": 855371,
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -13386,6 +13386,7 @@
         "Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.ref.dll",
         "Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll",
         "Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll",
+        "Assets/Scripts/BattleManager.cs",
         "Assets/Scripts/CardManager.cs",
         "Assets/Scripts/CardSO.cs",
         "Assets/Scripts/DeckMenu.cs",
@@ -13595,7 +13596,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 855432,
+      "PayloadOffset": 855466,
       "PayloadLength": 8513,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
@@ -14425,7 +14426,7 @@
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "BuildPlayerDataGenerator TypeDb-All",
-      "Action": "\"/Applications/Unity/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"/Users/game34/Documents/GitHub/Shadows-Of-Tartarus/Library/ScriptAssemblies/Assembly-CSharp.dll\" -a=\"/Users/game34/Documents/GitHub/Shadows-Of-Tartarus/Library/ScriptAssemblies/Unity.AI.Navigation.dll\" -a=\"/Users/game34/Documents/GitHub/Shadows-Of-Tartarus/Library/ScriptAssemblies/Unity.TextMeshPro.dll\" -a=\"/Users/game34/Documents/GitHub/Shadows-Of-Tartarus/Library/ScriptAssemblies/Unity.Timeline.dll\" -a=\"/Users/game34/Documents/GitHub/Shadows-Of-Tartarus/Library/ScriptAssemblies/UnityEngine.TestRunner.dll\" -a=\"/Users/game34/Documents/GitHub/Shadows-Of-Tartarus/Library/ScriptAssemblies/UnityEngine.UI.dll\" -a=\"/Users/game34/Documents/GitHub/Shadows-Of-Tartarus/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll\" -s=\"/Applications/Unity/Unity.app/Contents/Managed/UnityEngine\" -s=\"/Applications/Unity/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx\" -s=\"/Applications/Unity/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"/Applications/Unity/Unity.app/Contents/NetStandard/Extensions/2.0.0\" -s=\"/Applications/Unity/Unity.app/Contents/NetStandard/ref/2.1.0\" -s=\"/Users/game34/Documents/GitHub/Shadows-Of-Tartarus/Library/ScriptAssemblies\" -s=\"/Users/game34/Documents/GitHub/Shadows-Of-Tartarus/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"/Applications/Unity/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"/Users/game56/Documents/GitHub/Shadows-Of-Tartarus/Library/ScriptAssemblies/Assembly-CSharp.dll\" -a=\"/Users/game56/Documents/GitHub/Shadows-Of-Tartarus/Library/ScriptAssemblies/Unity.AI.Navigation.dll\" -a=\"/Users/game56/Documents/GitHub/Shadows-Of-Tartarus/Library/ScriptAssemblies/Unity.TextMeshPro.dll\" -a=\"/Users/game56/Documents/GitHub/Shadows-Of-Tartarus/Library/ScriptAssemblies/Unity.Timeline.dll\" -a=\"/Users/game56/Documents/GitHub/Shadows-Of-Tartarus/Library/ScriptAssemblies/UnityEngine.TestRunner.dll\" -a=\"/Users/game56/Documents/GitHub/Shadows-Of-Tartarus/Library/ScriptAssemblies/UnityEngine.UI.dll\" -a=\"/Users/game56/Documents/GitHub/Shadows-Of-Tartarus/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll\" -s=\"/Applications/Unity/Unity.app/Contents/Managed/UnityEngine\" -s=\"/Applications/Unity/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx\" -s=\"/Applications/Unity/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"/Applications/Unity/Unity.app/Contents/NetStandard/Extensions/2.0.0\" -s=\"/Applications/Unity/Unity.app/Contents/NetStandard/ref/2.1.0\" -s=\"/Users/game56/Documents/GitHub/Shadows-Of-Tartarus/Library/ScriptAssemblies\" -s=\"/Users/game56/Documents/GitHub/Shadows-Of-Tartarus/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "/Applications/Unity/Unity.app/Contents/Tools/netcorerun/netcorerun",
         "/Applications/Unity/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
@@ -14571,7 +14572,7 @@
   ],
   "StatSignatures": [
     {
-      "File": "/Users/game34/Documents/GitHub/Shadows-Of-Tartarus/getconf"
+      "File": "/Users/game56/Documents/GitHub/Shadows-Of-Tartarus/getconf"
     },
     {
       "File": "Assets/csc.rsp"
@@ -14676,6 +14677,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/200b0aE.dag.json",
-  "PayloadsFile": "/Users/game34/Documents/GitHub/Shadows-Of-Tartarus/Library/Bee/200b0aE.dag.payloads",
+  "PayloadsFile": "/Users/game56/Documents/GitHub/Shadows-Of-Tartarus/Library/Bee/200b0aE.dag.payloads",
   "RelativePathToRoot": "../.."
 }

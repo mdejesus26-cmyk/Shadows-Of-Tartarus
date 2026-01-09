@@ -10,6 +10,7 @@ public class LevelSwitcher : MonoBehaviour
     public GameObject level1;
     public GameObject level2;
     public GameObject dialogue;
+    public GameObject battleManager;
 
     // Start is called before the first frame update
     void Start()
