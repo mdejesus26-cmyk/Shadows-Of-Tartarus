@@ -65,6 +65,7 @@
     <Compile Include="Assets/Scripts/DeckSO.cs" />
     <Compile Include="Assets/Scripts/BattleManager.cs" />
     <Compile Include="Assets/Scripts/PauseMenu.cs" />
+    <Compile Include="Assets/Scripts/EnemyManager.cs" />
     <Compile Include="Assets/Scripts/CardSO.cs" />
     <Compile Include="Assets/Scripts/CardManager.cs" />
     <Compile Include="Assets/Scripts/PlayerController.cs" />
