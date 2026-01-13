@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     private Vector2 movementInput;
     public int mp = 10;
     public bool hasKey;
+    public BattleManager battleScript;
 
     // Start is called before the first frame update
     void Start()
@@ -19,10 +20,13 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        movementInput.x = Input.GetAxisRaw("Horizontal");
-        // Either the inputs A/D or the horizontal arrow keys can work.
-        movementInput.y = Input.GetAxisRaw("Vertical");
-        // Either the inputs W/S or the vertical arrow keys can work.
+        if (battleScript.inBattle == false)
+        {
+            movementInput.x = Input.GetAxisRaw("Horizontal");
+            // Either the inputs A/D or the horizontal arrow keys can work.
+            movementInput.y = Input.GetAxisRaw("Vertical");
+            // Either the inputs W/S or the vertical arrow keys can work.
+        }
     }
 
     void FixedUpdate()

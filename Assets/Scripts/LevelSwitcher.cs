@@ -10,7 +10,7 @@ public class LevelSwitcher : MonoBehaviour
     public GameObject level1;
     public GameObject level2;
     public GameObject dialogue;
-    public GameObject battleManager;
+    public BattleManager battleScript;
 
     // Start is called before the first frame update
     void Start()
@@ -27,6 +27,9 @@ public class LevelSwitcher : MonoBehaviour
             level1.SetActive(false);
             playerScript.hasKey = false;
             dialogue.SetActive(true);
+            battleScript.battleScene.SetActive(true);
+            battleScript.inBattle = true;
+            
         }
     }
 }
