@@ -29,6 +29,8 @@ public class BattleManager : MonoBehaviour
     public TMP_Text enemyHealthUI;
     public GameObject battleScene;
     public bool inBattle;
+    public TMP_Text battleText;
+    public int healAmount = 1;
 
     // Start is called before the first frame update
     void Start()
@@ -39,9 +41,10 @@ public class BattleManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        playerHealthUI.text = "Player Health: " + playerHealth;
         enemyHealthUI.text = "Enemy Health: " + enemyHealth;
 
-        if (enemyHealth < 0)
+        if (enemyHealth < 0 || enemyHealth == 0)
         {
             enemyHealth = 0;
             battleScene.SetActive(false);
@@ -72,12 +75,14 @@ public class BattleManager : MonoBehaviour
             attackDamage = 3;
             enemyHealth -= attackDamage;
             enemyHealthUI.text = "Enemy Health: " + enemyHealth;
+            battleText.text = "Slashed Enemy! " + attackDamage + " damage dealt!";
         }
         else if (enemyScript.resistPhys == true)
         {
             attackDamage = 1;
             enemyHealth -= attackDamage;
             enemyHealthUI.text = "Enemy Health: " + enemyHealth;
+            battleText.text = "Slashed Enemy! " + attackDamage + " damage dealt!";
         }
     }
 
@@ -89,12 +94,14 @@ public class BattleManager : MonoBehaviour
             fireDamage = 5;
             enemyHealth -= fireDamage;
             enemyHealthUI.text = "Enemy Health: " + enemyHealth;
+            battleText.text = "Flare casted! " + fireDamage + " damage dealt!";
         }
         else if (enemyScript.resistFire == true)
         {
             fireDamage = 2;
             enemyHealth -= fireDamage;
             enemyHealthUI.text = "Enemy Health: " + enemyHealth;
+            battleText.text = "Flare casted! " + fireDamage + " damage dealt!";
         }
     }
 
@@ -105,12 +112,14 @@ public class BattleManager : MonoBehaviour
             iceDamage = 2;
             enemyHealth -= iceDamage;
             enemyHealthUI.text = "Enemy Health: " + enemyHealth;
+            battleText.text = "Deep Freeze casted! " + iceDamage + " damage dealt!";
         }
         else if (enemyScript.resistIce == true)
         {
             iceDamage = 1;
             enemyHealth -= iceDamage;
             enemyHealthUI.text = "Enemy Health: " + enemyHealth;
+            battleText.text = "Deep Freeze casted! " + iceDamage + " damage dealt!";
         }
     }
 
@@ -121,17 +130,29 @@ public class BattleManager : MonoBehaviour
             thunderDamage = 7;
             enemyHealth -= thunderDamage;
             enemyHealthUI.text = "Enemy Health: " + enemyHealth;
+            battleText.text = "Lightning casted! " + thunderDamage + " damage dealt!";
         }
         else if (enemyScript.resistThunder == true)
         {
             thunderDamage = 2;
             enemyHealth -= thunderDamage;
             enemyHealthUI.text = "Enemy Health: " + enemyHealth;
+            battleText.text = "Lightning casted! " + thunderDamage + " damage dealt!";
         }
     }
 
     public void Item()
     {
+        if (playerHealth < 10)
+        {
+            playerHealth += healAmount;
+            battleText.text = "Potion used! " + healAmount + " HP resored!";
+        }
 
+        else if (playerHealth > 10 || playerHealth == 10)
+        {
+            battleText.text = "Health is full!";
+        }
+        
     }
 }

@@ -27,6 +27,14 @@ public class PlayerController : MonoBehaviour
             movementInput.y = Input.GetAxisRaw("Vertical");
             // Either the inputs W/S or the vertical arrow keys can work.
         }
+         if (battleScript.inBattle == true)
+        {
+            rb.velocity = Vector3.zero;
+             movementInput.x = 0;
+             movementInput.y = 0;
+             transform.position = new Vector3(1000, 500, transform.position.z);
+             hasKey = false;
+        }
     }
 
     void FixedUpdate()

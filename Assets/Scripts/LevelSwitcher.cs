@@ -26,7 +26,6 @@ public class LevelSwitcher : MonoBehaviour
             level2.SetActive(true);
             level1.SetActive(false);
             playerScript.hasKey = false;
-            dialogue.SetActive(true);
             battleScript.battleScene.SetActive(true);
             battleScript.inBattle = true;
             
