@@ -51871,6 +51871,9 @@ MonoBehaviour:
   resistIce: 0
   resistThunder: 0
   enemy: {fileID: 1886856962}
+  battleScript: {fileID: 1699692990}
+  action: 0
+  damageAmount: 0
 --- !u!1 &1907659918
 GameObject:
   m_ObjectHideFlags: 0

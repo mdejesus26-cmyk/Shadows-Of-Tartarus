@@ -9,6 +9,9 @@ public class EnemyManager : MonoBehaviour
     public bool resistIce;
     public bool resistThunder;
     public GameObject enemy;
+    public BattleManager battleScript;
+    public int action;
+    public int damageAmount;
 
     // Start is called before the first frame update
     void Start()
@@ -17,11 +20,33 @@ public class EnemyManager : MonoBehaviour
         resistFire = false;
         resistIce = false;
         resistThunder = false;
+        
+        if (battleScript.inBattle == true)
+        {
+            StartCoroutine(EnemyTurnCoroutine());
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
+        
+    }
+
+    IEnumerator EnemyTurnCoroutine()
+    {
+        while (true)
+        {
+        action = 1;
+        if (action == 1)
+        {
+            yield return new WaitForSeconds(3);
+            damageAmount = Random.Range(1, 3);
+            battleScript.playerHealth -= damageAmount;
+            battleScript.battleText.text = "Enemy attacks! " + damageAmount + " damage dealt!";
+            
+        }
+        }
         
     }
 }
