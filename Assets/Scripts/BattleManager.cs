@@ -31,6 +31,7 @@ public class BattleManager : MonoBehaviour
     public bool inBattle;
     public TMP_Text battleText;
     public int healAmount = 1;
+    public GameObject backToggle;
 
     // Start is called before the first frame update
     void Start()
@@ -58,6 +59,9 @@ public class BattleManager : MonoBehaviour
         fireToggle.SetActive(true);
         iceToggle.SetActive(true);
         thunderToggle.SetActive(true);
+        attackToggle.SetActive(false);
+        //backToggle.SetActive(true);
+
     }
 
     public void MagicMenuClose()
@@ -66,6 +70,17 @@ public class BattleManager : MonoBehaviour
         fireToggle.SetActive(false);
         iceToggle.SetActive(false);
         thunderToggle.SetActive(false);
+        attackToggle.SetActive(false);
+        //backToggle.SetActive(false);
+    }
+
+    public void Back()
+    {
+        magicToggle.SetActive(false);
+        fireToggle.SetActive(false);
+        iceToggle.SetActive(false);
+        thunderToggle.SetActive(false);
+        attackToggle.SetActive(true);
     }
 
     public void Attack()
