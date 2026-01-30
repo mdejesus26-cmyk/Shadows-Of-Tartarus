@@ -347,6 +347,7 @@
 "Assets/Scripts/CardSO.cs"
 "Assets/Scripts/DeckMenu.cs"
 "Assets/Scripts/DeckSO.cs"
+"Assets/Scripts/Dialogue System.cs"
 "Assets/Scripts/DialoguePopup.cs"
 "Assets/Scripts/EnemyManager.cs"
 "Assets/Scripts/GameManager.cs"
