@@ -30,8 +30,13 @@ public class BattleManager : MonoBehaviour
     public GameObject battleScene;
     public bool inBattle;
     public TMP_Text battleText;
-    public int healAmount = 1;
+    public int healAmount;
     public GameObject backToggle;
+    public bool magicMenuIsOpen;
+    public bool itemMenuIsOpen;
+    public GameObject itemMenu;
+    public int itemCount = 3;
+    public int playerMp = 10;
 
     // Start is called before the first frame update
     void Start()
@@ -60,8 +65,8 @@ public class BattleManager : MonoBehaviour
         iceToggle.SetActive(true);
         thunderToggle.SetActive(true);
         attackToggle.SetActive(false);
-        //backToggle.SetActive(true);
-
+        backToggle.SetActive(true);
+        magicMenuIsOpen = true;
     }
 
     public void MagicMenuClose()
@@ -71,16 +76,63 @@ public class BattleManager : MonoBehaviour
         iceToggle.SetActive(false);
         thunderToggle.SetActive(false);
         attackToggle.SetActive(false);
-        //backToggle.SetActive(false);
+        backToggle.SetActive(false);
+        magicMenuIsOpen = false;
     }
 
-    public void Back()
+    public void ItemMenuOpen()
     {
         magicToggle.SetActive(false);
         fireToggle.SetActive(false);
         iceToggle.SetActive(false);
         thunderToggle.SetActive(false);
+        attackToggle.SetActive(false);
+        backToggle.SetActive(true);
+        itemToggle.SetActive(true);
+        itemMenu.SetActive(true);
+        itemMenuIsOpen = true;
+    }
+
+    public void ItemMenuClose()
+    {
+        magicToggle.SetActive(true);
+        fireToggle.SetActive(false);
+        iceToggle.SetActive(false);
+        thunderToggle.SetActive(false);
+        attackToggle.SetActive(false);
+        backToggle.SetActive(false);
+        itemToggle.SetActive(true);
+        itemMenu.SetActive(false);
+        itemMenuIsOpen = false;
+    }
+
+
+    public void Back()
+    {
+        if (magicMenuIsOpen == true)
+        { 
+        magicToggle.SetActive(true);
+        fireToggle.SetActive(false);
+        iceToggle.SetActive(false);
+        thunderToggle.SetActive(false);
         attackToggle.SetActive(true);
+        backToggle.SetActive(false);
+        itemToggle.SetActive(true);
+        magicMenuIsOpen = false;
+        }
+
+        else if (itemMenuIsOpen == true)
+        {
+        magicToggle.SetActive(true);
+        fireToggle.SetActive(false);
+        iceToggle.SetActive(false);
+        thunderToggle.SetActive(false);
+        attackToggle.SetActive(true);
+        backToggle.SetActive(false);
+        itemToggle.SetActive(true);
+        itemMenu.SetActive(false);
+        itemMenuIsOpen = false;
+        }
     }
 
     public void Attack()
@@ -156,18 +208,74 @@ public class BattleManager : MonoBehaviour
         }
     }
 
-    public void Item()
+    public void Potion()
     {
-        if (playerHealth < 10)
+        healAmount = 1;
+
+        if (playerHealth < 10 && itemCount != 0)
         {
             playerHealth += healAmount;
             battleText.text = "Potion used! " + healAmount + " HP resored!";
+            itemCount --;
         }
 
         else if (playerHealth > 10 || playerHealth == 10)
         {
             battleText.text = "Health is full!";
         }
+
+        if (itemCount == 0)
+        {
+            battleText.text = "No items left!";
+        }
         
     }
+
+    public void HiPotion()
+    {
+        healAmount = 2;
+
+        if (playerHealth < 10 && itemCount != 0)
+        {
+            playerHealth += healAmount;
+            battleText.text = "Hi-Potion used! " + healAmount + " HP resored!";
+            itemCount --;
+        }
+
+        else if (playerHealth > 10 || playerHealth == 10)
+        {
+            battleText.text = "Health is full!";
+        }
+
+        if (itemCount == 0)
+        {
+            battleText.text = "No items left!";
+        }
+        
+    }
+
+    public void UltraPotion()
+    {
+        healAmount = 3;
+
+        if (playerHealth < 10 && itemCount != 0)
+        {
+            playerHealth += healAmount;
+            battleText.text = "Ultra Potion used! " + healAmount + " HP resored!";
+            itemCount --;
+        }
+
+        else if (playerHealth > 10 || playerHealth == 10)
+        {
+            battleText.text = "Health is full!";
+        }
+
+        if (itemCount == 0)
+        {
+            battleText.text = "No items left!";
+        }
+        
+    }
+
+    
 }
