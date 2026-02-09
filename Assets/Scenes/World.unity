@@ -792,14 +792,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt
-    velit nec ligula lacinia, ac ultrices turpis commodo. Nulla at ipsum luctus,
-    eleifend arcu vitae, pulvinar ligula. Integer quis diam a libero congue volutpat.
-    Quisque sit amet tortor et velit lacinia auctor sed sed lorem. Quisque ultricies,
-    velit quis pretium elementum, lacus velit scelerisque massa, non sagittis nisi
-    erat quis felis. In malesuada laoreet nisl, sit amet condimentum lorem feugiat
-    quis. Quisque viverra interdum elit, quis laoreet tortor ornare ut. Phasellus
-    purus justo, semper vel est sit amet, posuere aliquam ante.
+  m_text: Yikes!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -27049,7 +27042,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1122977177
 Transform:
   m_ObjectHideFlags: 0
@@ -28239,7 +28232,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 4
-  mp: 10
   hasKey: 0
   battleScript: {fileID: 1699692990}
 --- !u!212 &1498065317
@@ -52418,6 +52410,7 @@ MonoBehaviour:
   itemMenuIsOpen: 0
   itemMenu: {fileID: 1756056021}
   itemCount: 3
+  playerMp: 10
 --- !u!1 &1706540275
 GameObject:
   m_ObjectHideFlags: 0
@@ -52512,7 +52505,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1756056022
 RectTransform:
   m_ObjectHideFlags: 0
