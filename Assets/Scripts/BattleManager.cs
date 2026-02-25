@@ -37,24 +37,41 @@ public class BattleManager : MonoBehaviour
     public GameObject itemMenu;
     public int itemCount = 3;
     public int playerMp = 10;
+    public TMP_Text playerMpUI;
+    public GameObject gameOverScreen;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        gameOverScreen.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
         playerHealthUI.text = "Player Health: " + playerHealth;
+        playerMpUI.text = "MP: " + playerMp;
         enemyHealthUI.text = "Enemy Health: " + enemyHealth;
+
+        if (playerHealth > 10)
+        {
+            playerHealth = 10;
+        }
+        if (playerMp > 10)
+        {
+            playerMp = 10;
+        }
 
         if (enemyHealth < 0 || enemyHealth == 0)
         {
             enemyHealth = 0;
             battleScene.SetActive(false);
             inBattle = false;
+        }
+
+        if (playerHealth < 1)
+        {
+            gameOverScreen.SetActive(true);
         }
     }
 
@@ -141,6 +158,7 @@ public class BattleManager : MonoBehaviour
         {
             attackDamage = 3;
             enemyHealth -= attackDamage;
+            playerMp ++;
             enemyHealthUI.text = "Enemy Health: " + enemyHealth;
             battleText.text = "Slashed Enemy! " + attackDamage + " damage dealt!";
         }
@@ -148,6 +166,7 @@ public class BattleManager : MonoBehaviour
         {
             attackDamage = 1;
             enemyHealth -= attackDamage;
+            playerMp ++;
             enemyHealthUI.text = "Enemy Health: " + enemyHealth;
             battleText.text = "Slashed Enemy! " + attackDamage + " damage dealt!";
         }
@@ -156,55 +175,82 @@ public class BattleManager : MonoBehaviour
 
     public void Fire()
     {
-        if (enemyScript.resistFire == false)
+        if (playerMp > 3 || playerMp == 3)
         {
-            fireDamage = 5;
-            enemyHealth -= fireDamage;
-            enemyHealthUI.text = "Enemy Health: " + enemyHealth;
-            battleText.text = "Flare casted! " + fireDamage + " damage dealt!";
+            if (enemyScript.resistFire == false)
+            {
+                fireDamage = 5;
+                enemyHealth -= fireDamage;
+                playerMp -= 3;
+                enemyHealthUI.text = "Enemy Health: " + enemyHealth;
+                battleText.text = "Flare casted! " + fireDamage + " damage dealt!";
+            }
+            else if (enemyScript.resistFire == true)
+            {
+                fireDamage = 2;
+                enemyHealth -= fireDamage;
+                playerMp -= 3;
+                enemyHealthUI.text = "Enemy Health: " + enemyHealth;
+                battleText.text = "Flare casted! " + fireDamage + " damage dealt!";
+            }
         }
-        else if (enemyScript.resistFire == true)
+        else if (playerMp < 3)
         {
-            fireDamage = 2;
-            enemyHealth -= fireDamage;
-            enemyHealthUI.text = "Enemy Health: " + enemyHealth;
-            battleText.text = "Flare casted! " + fireDamage + " damage dealt!";
+            battleText.text = "Insufficent MP!";
         }
     }
 
     public void Ice()
     {
-        if (enemyScript.resistIce == false)
+        if (playerMp > 2 || playerMp == 2)
         {
-            iceDamage = 2;
-            enemyHealth -= iceDamage;
-            enemyHealthUI.text = "Enemy Health: " + enemyHealth;
-            battleText.text = "Deep Freeze casted! " + iceDamage + " damage dealt!";
+            if (enemyScript.resistIce == false)
+        {
+                iceDamage = 2;
+                enemyHealth -= iceDamage;
+                playerMp -= 2;
+                enemyHealthUI.text = "Enemy Health: " + enemyHealth;
+                battleText.text = "Deep Freeze casted! " + iceDamage + " damage dealt!";
         }
-        else if (enemyScript.resistIce == true)
+            else if (enemyScript.resistIce == true)
         {
-            iceDamage = 1;
-            enemyHealth -= iceDamage;
-            enemyHealthUI.text = "Enemy Health: " + enemyHealth;
-            battleText.text = "Deep Freeze casted! " + iceDamage + " damage dealt!";
+                iceDamage = 1;
+                enemyHealth -= iceDamage;
+                playerMp -= 2;
+                enemyHealthUI.text = "Enemy Health: " + enemyHealth;
+                battleText.text = "Deep Freeze casted! " + iceDamage + " damage dealt!";
+        }
+        }
+        else if (playerMp < 2)
+        {
+            battleText.text = "Insufficent MP!";
         }
     }
 
     public void Thunder()
     {
-        if (enemyScript.resistThunder == false)
+        if (playerMp > 5 || playerMp == 5)
         {
-            thunderDamage = 7;
-            enemyHealth -= thunderDamage;
-            enemyHealthUI.text = "Enemy Health: " + enemyHealth;
-            battleText.text = "Lightning casted! " + thunderDamage + " damage dealt!";
+            if (enemyScript.resistThunder == false)
+            {
+                thunderDamage = 7;
+                enemyHealth -= thunderDamage;
+                playerMp -= 5;
+                enemyHealthUI.text = "Enemy Health: " + enemyHealth;
+                battleText.text = "Lightning casted! " + thunderDamage + " damage dealt!";
+            }
+            else if (enemyScript.resistThunder == true)
+            {
+                thunderDamage = 2;
+                enemyHealth -= thunderDamage;
+                playerMp -= 5;
+                enemyHealthUI.text = "Enemy Health: " + enemyHealth;
+                battleText.text = "Lightning casted! " + thunderDamage + " damage dealt!";
+            }
         }
-        else if (enemyScript.resistThunder == true)
+        else if (playerMp < 5)
         {
-            thunderDamage = 2;
-            enemyHealth -= thunderDamage;
-            enemyHealthUI.text = "Enemy Health: " + enemyHealth;
-            battleText.text = "Lightning casted! " + thunderDamage + " damage dealt!";
+            battleText.text = "Insufficent MP!";
         }
     }
 

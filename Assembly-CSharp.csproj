@@ -66,6 +66,7 @@
     <Compile Include="Assets/Scripts/LevelSwitcher.cs" />
     <Compile Include="Assets/Scripts/GameManager.cs" />
     <Compile Include="Assets/Scripts/DeckSO.cs" />
+    <Compile Include="Assets/Scripts/RetryScript.cs" />
     <Compile Include="Assets/Scripts/BattleManager.cs" />
     <Compile Include="Assets/Scripts/PauseMenu.cs" />
     <Compile Include="Assets/Scripts/EnemyManager.cs" />

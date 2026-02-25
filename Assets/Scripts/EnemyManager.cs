@@ -37,16 +37,13 @@ public class EnemyManager : MonoBehaviour
     {
         while (true)
         {
-        action = 1;
-        if (action == 1)
-        {
-            yield return new WaitForSeconds(3);
+            yield return new WaitForSeconds(2);
             damageAmount = Random.Range(1, 3);
             battleScript.playerHealth -= damageAmount;
             battleScript.battleText.text = "Enemy attacks! " + damageAmount + " damage dealt!";
             
         }
-        }
+        
         
     }
 }
