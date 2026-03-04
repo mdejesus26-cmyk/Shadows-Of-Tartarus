@@ -352,7 +352,7 @@
 "Assets/Scripts/DialoguePopup.cs"
 "Assets/Scripts/EnemyManager.cs"
 "Assets/Scripts/GameManager.cs"
-"Assets/Scripts/LevelSwitcher.cs"
+"Assets/Scripts/LevelSwitch.cs"
 "Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/PauseSettingsMenu.cs"

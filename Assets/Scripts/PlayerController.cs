@@ -7,8 +7,11 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed;
     private Rigidbody rb;
     private Vector2 movementInput;
-    public bool hasKey;
     public BattleManager battleScript;
+    public GameObject level1;
+    public GameObject level2;
+    public GameObject key;
+    public GameObject key2;
 
     // Start is called before the first frame update
     void Start()
@@ -32,7 +35,6 @@ public class PlayerController : MonoBehaviour
              movementInput.x = 0;
              movementInput.y = 0;
              transform.position = new Vector3(1000, 500, transform.position.z);
-             hasKey = false;
         }
     }
 
@@ -45,7 +47,16 @@ public class PlayerController : MonoBehaviour
     {
         if(other.CompareTag("Key"))
         {
-            hasKey = true;
+            battleScript.inBattle = true;
+            battleScript.battleScene.SetActive(true);
+            key.SetActive(false);
+        }
+        else if (other.CompareTag("Key 2"))
+        {
+            battleScript.inBattle = true;
+            battleScript.battleScene2.SetActive(true);
+            key2.SetActive(false);
         }
     }
+
 }

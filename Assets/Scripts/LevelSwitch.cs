@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LevelSwitcher : MonoBehaviour
+public class LevelSwitch : MonoBehaviour
 {
+    
     private PlayerController playerScript;
     public GameObject player;
     public GameObject level1;
@@ -21,14 +22,17 @@ public class LevelSwitcher : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (playerScript.hasKey == true)
-        {
-            level2.SetActive(true);
-            level1.SetActive(false);
-            playerScript.hasKey = false;
-            battleScript.battleScene.SetActive(true);
-            battleScript.inBattle = true;
-            
-        }
+        
     }
+
+    public void Switch()
+    {  
+        level2.SetActive(true);
+        level1.SetActive(false);
+        //battleScript.battleScene.SetActive(true);
+        //battleScript.inBattle = true;
+            
+        
+    }
+    
 }

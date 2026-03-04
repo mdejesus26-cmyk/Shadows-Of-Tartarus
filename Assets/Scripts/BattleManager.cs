@@ -28,6 +28,7 @@ public class BattleManager : MonoBehaviour
     public TMP_Text playerHealthUI;
     public TMP_Text enemyHealthUI;
     public GameObject battleScene;
+    public GameObject battleScene2;
     public bool inBattle;
     public TMP_Text battleText;
     public int healAmount;
@@ -39,6 +40,7 @@ public class BattleManager : MonoBehaviour
     public int playerMp = 10;
     public TMP_Text playerMpUI;
     public GameObject gameOverScreen;
+    public LevelSwitch levelScript;
 
     // Start is called before the first frame update
     void Start()
@@ -62,17 +64,21 @@ public class BattleManager : MonoBehaviour
             playerMp = 10;
         }
 
-        if (enemyHealth < 0 || enemyHealth == 0)
+        if (enemyHealth <= 0)
         {
             enemyHealth = 0;
             battleScene.SetActive(false);
+            battleScene2.SetActive(false);
             inBattle = false;
+            levelScript.Switch();
         }
 
         if (playerHealth < 1)
         {
             gameOverScreen.SetActive(true);
         }
+
+
     }
 
     public void MagicMenuOpen()
