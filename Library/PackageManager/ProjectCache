@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639088474680000000
+      ticks: 639089347260000000
     m_Hash: 703780253
   m_LockFileStatus:
     m_FilePath: /Users/game56/Documents/GitHub/Shadows-Of-Tartarus/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639088474680000000
+      ticks: 639089347260000000
     m_Hash: 3960606941
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}

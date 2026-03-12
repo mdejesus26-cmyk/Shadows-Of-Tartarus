@@ -689,10 +689,11 @@ MonoBehaviour:
   battleScript: {fileID: 1153784703}
   action: 0
   damageAmount: 0
-  shakeScript: {fileID: 0}
-  duration: 0.5
-  magnitude: 2
+  shakeScript: {fileID: 191341391}
+  duration: 0.2
+  magnitude: 1
   startPos: {x: 0, y: 0, z: 0}
+  attackMode: 0
 --- !u!212 &84135662
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -57303,9 +57304,10 @@ MonoBehaviour:
   action: 0
   damageAmount: 0
   shakeScript: {fileID: 191341391}
-  duration: 0.5
-  magnitude: 2
+  duration: 0.2
+  magnitude: 1
   startPos: {x: 0, y: 0, z: 0}
+  attackMode: 0
 --- !u!114 &1886856966
 MonoBehaviour:
   m_ObjectHideFlags: 0

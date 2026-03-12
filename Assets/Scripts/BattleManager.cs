@@ -72,6 +72,7 @@ public class BattleManager : MonoBehaviour
             battleScene2.SetActive(false);
             inBattle = false;
             levelScript.Switch();
+            enemyScript.attackMode = false;
         }
 
         if (playerHealth < 1)
@@ -192,6 +193,7 @@ public class BattleManager : MonoBehaviour
                 playerMp -= 3;
                 enemyHealthUI.text = "Enemy Health: " + enemyHealth;
                 battleText.text = "Flare casted! " + fireDamage + " damage dealt!";
+                shakeScript.Shake(enemyScript.duration, enemyScript.magnitude);
             }
             else if (enemyScript.resistFire == true)
             {
@@ -200,12 +202,14 @@ public class BattleManager : MonoBehaviour
                 playerMp -= 3;
                 enemyHealthUI.text = "Enemy Health: " + enemyHealth;
                 battleText.text = "Flare casted! " + fireDamage + " damage dealt!";
+                shakeScript.Shake(enemyScript.duration, enemyScript.magnitude);
             }
         }
         else if (playerMp < 3)
         {
             battleText.text = "Insufficent MP!";
         }
+        
     }
 
     public void Ice()
@@ -219,6 +223,7 @@ public class BattleManager : MonoBehaviour
                 playerMp -= 2;
                 enemyHealthUI.text = "Enemy Health: " + enemyHealth;
                 battleText.text = "Deep Freeze casted! " + iceDamage + " damage dealt!";
+                shakeScript.Shake(enemyScript.duration, enemyScript.magnitude);
         }
             else if (enemyScript.resistIce == true)
         {
@@ -227,6 +232,7 @@ public class BattleManager : MonoBehaviour
                 playerMp -= 2;
                 enemyHealthUI.text = "Enemy Health: " + enemyHealth;
                 battleText.text = "Deep Freeze casted! " + iceDamage + " damage dealt!";
+                shakeScript.Shake(enemyScript.duration, enemyScript.magnitude);
         }
         }
         else if (playerMp < 2)
@@ -246,6 +252,7 @@ public class BattleManager : MonoBehaviour
                 playerMp -= 5;
                 enemyHealthUI.text = "Enemy Health: " + enemyHealth;
                 battleText.text = "Lightning casted! " + thunderDamage + " damage dealt!";
+                shakeScript.Shake(enemyScript.duration, enemyScript.magnitude);
             }
             else if (enemyScript.resistThunder == true)
             {
@@ -254,6 +261,7 @@ public class BattleManager : MonoBehaviour
                 playerMp -= 5;
                 enemyHealthUI.text = "Enemy Health: " + enemyHealth;
                 battleText.text = "Lightning casted! " + thunderDamage + " damage dealt!";
+                shakeScript.Shake(enemyScript.duration, enemyScript.magnitude);
             }
         }
         else if (playerMp < 5)
