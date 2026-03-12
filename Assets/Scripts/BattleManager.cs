@@ -41,6 +41,7 @@ public class BattleManager : MonoBehaviour
     public TMP_Text playerMpUI;
     public GameObject gameOverScreen;
     public LevelSwitch levelScript;
+    public CamShake shakeScript;
 
     // Start is called before the first frame update
     void Start()
@@ -176,6 +177,7 @@ public class BattleManager : MonoBehaviour
             enemyHealthUI.text = "Enemy Health: " + enemyHealth;
             battleText.text = "Slashed Enemy! " + attackDamage + " damage dealt!";
         }
+        shakeScript.Shake(enemyScript.duration, enemyScript.magnitude);
     }
 
 

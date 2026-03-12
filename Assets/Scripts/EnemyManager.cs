@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 
 public class EnemyManager : MonoBehaviour
 {
@@ -12,6 +13,12 @@ public class EnemyManager : MonoBehaviour
     public BattleManager battleScript;
     public int action;
     public int damageAmount;
+    private CinemachineImpulseSource impulseSource;
+    public CamShake shakeScript;
+    public float duration = 5;
+    public float magnitude = 5;
+    public Vector3 startPos;
+
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +27,8 @@ public class EnemyManager : MonoBehaviour
         resistFire = false;
         resistIce = false;
         resistThunder = false;
+        impulseSource = GetComponent<CinemachineImpulseSource>();
+        startPos = transform.position;
         
         if (battleScript.inBattle == true)
         {
@@ -41,9 +50,12 @@ public class EnemyManager : MonoBehaviour
             damageAmount = Random.Range(1, 3);
             battleScript.playerHealth -= damageAmount;
             battleScript.battleText.text = "Enemy attacks! " + damageAmount + " damage dealt!";
-            
+            shakeScript.Shake(duration, magnitude);
         }
         
         
     }
+
+    
 }
+

@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     public GameObject level2;
     public GameObject key;
     public GameObject key2;
+    public GameObject camera;
 
     // Start is called before the first frame update
     void Start()
@@ -28,12 +29,13 @@ public class PlayerController : MonoBehaviour
             // Either the inputs A/D or the horizontal arrow keys can work.
             movementInput.y = Input.GetAxisRaw("Vertical");
             // Either the inputs W/S or the vertical arrow keys can work.
+            camera.transform.position = new Vector3(transform.position.x, transform.position.y, -15.39f);
         }
          if (battleScript.inBattle == true)
         {
-            rb.velocity = Vector3.zero;
+            /*rb.velocity = Vector3.zero;
              movementInput.x = 0;
-             movementInput.y = 0;
+             movementInput.y = 0;*/
              transform.position = new Vector3(1000, 500, transform.position.z);
         }
     }
