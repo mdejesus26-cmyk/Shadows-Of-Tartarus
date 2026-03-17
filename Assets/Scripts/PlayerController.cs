@@ -52,13 +52,32 @@ public class PlayerController : MonoBehaviour
             battleScript.inBattle = true;
             battleScript.battleScene.SetActive(true);
             key.SetActive(false);
+            battleScript.enemyScript.attackMode = true;
+            //StartCoroutine(EnemyTurnCoroutine());
         }
         else if (other.CompareTag("Key 2"))
         {
             battleScript.inBattle = true;
             battleScript.battleScene2.SetActive(true);
             key2.SetActive(false);
+            battleScript.enemyScript.attackMode = true;
+            //StartCoroutine(EnemyTurnCoroutine());
         }
+    }
+
+    public IEnumerator EnemyTurnCoroutine()
+    {
+        while (battleScript.inBattle == true)
+        {
+            battleScript.enemyScript.attackMode = true;
+            yield return new WaitForSeconds(2);
+            battleScript.enemyScript.damageAmount = Random.Range(1, 3);
+            battleScript.playerHealth -= battleScript.enemyScript.damageAmount;
+            battleScript.battleText.text = "Enemy attacks! " + battleScript.enemyScript.damageAmount + " damage dealt!";
+            battleScript.enemyScript.shakeScript.Shake(battleScript.enemyScript.duration, battleScript.enemyScript.magnitude);
+        }
+        
+        
     }
 
 }

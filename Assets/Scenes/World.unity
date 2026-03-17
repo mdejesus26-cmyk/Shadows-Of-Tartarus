@@ -661,39 +661,14 @@ GameObject:
   m_Component:
   - component: {fileID: 84135663}
   - component: {fileID: 84135662}
-  - component: {fileID: 84135661}
+  - component: {fileID: 84135664}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Enemy 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &84135661
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 84135660}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81a55df9216bb4bada984698e1098503, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  resistPhys: 0
-  resistFire: 0
-  resistIce: 0
-  resistThunder: 0
-  enemy: {fileID: 84135660}
-  battleScript: {fileID: 1153784703}
-  action: 0
-  damageAmount: 0
-  shakeScript: {fileID: 191341391}
-  duration: 0.2
-  magnitude: 1
-  startPos: {x: 0, y: 0, z: 0}
-  attackMode: 0
 --- !u!212 &84135662
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -761,6 +736,31 @@ Transform:
   m_Children: []
   m_Father: {fileID: 70469907}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &84135664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 84135660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49b20c1ea14f6412585568e3df8d4187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resistPhys: 0
+  resistFire: 0
+  resistIce: 0
+  resistThunder: 0
+  enemy2: {fileID: 84135660}
+  battleScript: {fileID: 1153784703}
+  action: 0
+  damageAmount: 0
+  shakeScript: {fileID: 191341391}
+  duration: 5
+  magnitude: 5
+  startPos: {x: 0, y: 0, z: 0}
+  attackMode: 0
 --- !u!1 &94257740
 GameObject:
   m_ObjectHideFlags: 0
@@ -27506,7 +27506,7 @@ GameObject:
   - component: {fileID: 804688917}
   - component: {fileID: 804688916}
   m_Layer: 0
-  m_Name: Grid
+  m_Name: Levels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29585,7 +29585,7 @@ MonoBehaviour:
   fireDamage: 5
   iceDamage: 2
   thunderDamage: 7
-  enemyScript: {fileID: 84135661}
+  enemyScript: {fileID: 0}
   attackToggle: {fileID: 765261698}
   magicToggle: {fileID: 1411043630}
   fireToggle: {fileID: 1334244102}

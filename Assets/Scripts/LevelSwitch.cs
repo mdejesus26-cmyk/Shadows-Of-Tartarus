@@ -27,8 +27,7 @@ public class LevelSwitch : MonoBehaviour
 
     public void Switch()
     {  
-        level2.SetActive(true);
-        level1.SetActive(false);
+        SceneManager.LoadScene("World 2");
         //battleScript.battleScene.SetActive(true);
         //battleScript.inBattle = true;
             

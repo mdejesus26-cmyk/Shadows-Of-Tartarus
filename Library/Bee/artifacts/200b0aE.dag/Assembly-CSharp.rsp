@@ -354,6 +354,7 @@
 "Assets/Scripts/DialogueManager.cs"
 "Assets/Scripts/DialoguePopup.cs"
 "Assets/Scripts/EnemyManager.cs"
+"Assets/Scripts/EnemyManager2.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/LevelSwitch.cs"
 "Assets/Scripts/MainMenu.cs"

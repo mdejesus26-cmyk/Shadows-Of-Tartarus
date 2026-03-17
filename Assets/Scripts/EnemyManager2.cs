@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
 
-public class EnemyManager : MonoBehaviour
+public class EnemyManager2 : MonoBehaviour
 {
     public bool resistPhys;
     public bool resistFire;
     public bool resistIce;
     public bool resistThunder;
-    public GameObject enemy;
+    public GameObject enemy2;
     public BattleManager battleScript;
     public int action;
     public int damageAmount;
