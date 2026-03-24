@@ -18,11 +18,10 @@ public class EnemyManager : MonoBehaviour
     public float duration = 5;
     public float magnitude = 5;
     public Vector3 startPos;
-    public bool attackMode = false;
 
 
     // Start is called before the first frame update
-    void Awake()
+    void Start()
     {
         resistPhys = false;
         resistFire = false;
@@ -31,20 +30,7 @@ public class EnemyManager : MonoBehaviour
         impulseSource = GetComponent<CinemachineImpulseSource>();
         startPos = transform.position;
         
-        // if (battleScript.inBattle == true && attackMode == false)
-        // {
-        //     StartCoroutine(EnemyTurnCoroutine());
-        //     Debug.Log("Enemy turn started");
-        // }
-        // else
-        // {
-        //     Debug.Log(battleScript.inBattle );
-        // }
-    }
-
-    void OnEnable()
-    {
-        if (battleScript.inBattle == true && attackMode == false)
+        if (battleScript.inBattle == true)
         {
             StartCoroutine(EnemyTurnCoroutine());
             Debug.Log("Enemy turn started");
@@ -65,7 +51,6 @@ public class EnemyManager : MonoBehaviour
     {
         while (true)
         {
-            attackMode = true;
             yield return new WaitForSeconds(2);
             damageAmount = Random.Range(1, 3);
             battleScript.playerHealth -= damageAmount;
