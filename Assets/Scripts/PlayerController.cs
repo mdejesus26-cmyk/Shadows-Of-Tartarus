@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody rb;
     private Vector2 movementInput;
     public BattleManager battleScript;
+    public SceneManage sceneManage;
     public GameObject level1;
     public GameObject level2;
     public GameObject key;
@@ -18,6 +19,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        //battleScript = GameObject.Find("Battle Manager").GetComponent<BattleManager>();
     }
 
     // Update is called once per frame
@@ -49,19 +51,36 @@ public class PlayerController : MonoBehaviour
     {
         if(other.CompareTag("Key"))
         {
-            battleScript.inBattle = true;
-            battleScript.battleScene.SetActive(true);
-            key.SetActive(false);
-            battleScript.enemyScript.attackMode = true;
-            //StartCoroutine(EnemyTurnCoroutine());
+            sceneManage.battleScene.SetActive(true);
+            battleScript = GameObject.Find("Battle Manager").GetComponent<BattleManager>();
+            if (battleScript != null)
+            {
+                battleScript.inBattle = true;
+                key.SetActive(false);
+                //battleScript.enemyScript.attackMode = true;
+                //StartCoroutine(EnemyTurnCoroutine());
+            }
+            else
+            {
+                Debug.Log("Script not found");
+            }
+           
         }
         else if (other.CompareTag("Key 2"))
         {
-            battleScript.inBattle = true;
-            battleScript.battleScene2.SetActive(true);
-            key2.SetActive(false);
-            battleScript.enemyScript.attackMode = true;
-            //StartCoroutine(EnemyTurnCoroutine());
+            sceneManage.battleScene2.SetActive(true);
+             battleScript = GameObject.Find("Battle Manager").GetComponent<BattleManager>();
+            if (battleScript != null)
+            {
+                battleScript.inBattle = true;
+                key2.SetActive(false);
+                //battleScript.enemyScript.attackMode = true;
+                //StartCoroutine(EnemyTurnCoroutine());
+            }
+            else
+            {
+                Debug.Log("Script not found");
+            }
         }
     }
 

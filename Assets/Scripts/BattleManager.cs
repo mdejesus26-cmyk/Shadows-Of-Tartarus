@@ -27,8 +27,7 @@ public class BattleManager : MonoBehaviour
     public GameObject itemToggle;
     public TMP_Text playerHealthUI;
     public TMP_Text enemyHealthUI;
-    public GameObject battleScene;
-    public GameObject battleScene2;
+    
     public bool inBattle;
     public TMP_Text battleText;
     public int healAmount;
@@ -68,8 +67,8 @@ public class BattleManager : MonoBehaviour
         if (enemyHealth <= 0)
         {
             enemyHealth = 0;
-            battleScene.SetActive(false);
-            battleScene2.SetActive(false);
+            GameObject.Find("Scene Manager").GetComponent<SceneManage>().battleScene.SetActive(false);
+            GameObject.Find("Scene Manager").GetComponent<SceneManage>().battleScene2.SetActive(false);
             inBattle = false;
             levelScript.Switch();
             enemyScript.attackMode = false;

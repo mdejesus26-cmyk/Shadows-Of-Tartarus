@@ -31,9 +31,27 @@ public class EnemyManager : MonoBehaviour
         impulseSource = GetComponent<CinemachineImpulseSource>();
         startPos = transform.position;
         
+        // if (battleScript.inBattle == true && attackMode == false)
+        // {
+        //     StartCoroutine(EnemyTurnCoroutine());
+        //     Debug.Log("Enemy turn started");
+        // }
+        // else
+        // {
+        //     Debug.Log(battleScript.inBattle );
+        // }
+    }
+
+    void OnEnable()
+    {
         if (battleScript.inBattle == true && attackMode == false)
         {
             StartCoroutine(EnemyTurnCoroutine());
+            Debug.Log("Enemy turn started");
+        }
+        else
+        {
+            Debug.Log(battleScript.inBattle );
         }
     }
 

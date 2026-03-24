@@ -745,14 +745,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 84135660}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49b20c1ea14f6412585568e3df8d4187, type: 3}
+  m_Script: {fileID: 11500000, guid: 81a55df9216bb4bada984698e1098503, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   resistPhys: 0
   resistFire: 0
   resistIce: 0
   resistThunder: 0
-  enemy2: {fileID: 84135660}
+  enemy: {fileID: 84135660}
   battleScript: {fileID: 1153784703}
   action: 0
   damageAmount: 0
@@ -29585,7 +29585,7 @@ MonoBehaviour:
   fireDamage: 5
   iceDamage: 2
   thunderDamage: 7
-  enemyScript: {fileID: 0}
+  enemyScript: {fileID: 84135664}
   attackToggle: {fileID: 765261698}
   magicToggle: {fileID: 1411043630}
   fireToggle: {fileID: 1334244102}
@@ -29594,8 +29594,6 @@ MonoBehaviour:
   itemToggle: {fileID: 399639257}
   playerHealthUI: {fileID: 2130678681}
   enemyHealthUI: {fileID: 1921468703}
-  battleScene: {fileID: 1122977176}
-  battleScene2: {fileID: 70469906}
   inBattle: 0
   battleText: {fileID: 399404526}
   healAmount: 1
@@ -31552,6 +31550,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 4
   battleScript: {fileID: 1699692990}
+  sceneManage: {fileID: 2019755736}
   level1: {fileID: 723457224}
   level2: {fileID: 1508484970}
   key: {fileID: 2013114299}
@@ -56239,8 +56238,6 @@ MonoBehaviour:
   itemToggle: {fileID: 2123482557}
   playerHealthUI: {fileID: 609891867}
   enemyHealthUI: {fileID: 2085287085}
-  battleScene: {fileID: 1122977176}
-  battleScene2: {fileID: 70469906}
   inBattle: 0
   battleText: {fileID: 1942935041}
   healAmount: 1
@@ -58480,6 +58477,52 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.7213948, y: 1.4927174, z: 9.90785}
   m_Center: {x: 0.014343262, y: -0.16459097, z: 1.1073312}
+--- !u!1 &2019755735
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2019755737}
+  - component: {fileID: 2019755736}
+  m_Layer: 0
+  m_Name: Scene Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2019755736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019755735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57a440ed5a3d42618b3741505db3851, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  battleScene: {fileID: 1122977176}
+  battleScene2: {fileID: 70469906}
+--- !u!4 &2019755737
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019755735}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1016.27783, y: 447.43408, z: 454.0321}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2073348603
 GameObject:
   m_ObjectHideFlags: 0
@@ -59466,3 +59509,4 @@ SceneRoots:
   - {fileID: 1914256513}
   - {fileID: 1122977177}
   - {fileID: 764933962}
+  - {fileID: 2019755737}

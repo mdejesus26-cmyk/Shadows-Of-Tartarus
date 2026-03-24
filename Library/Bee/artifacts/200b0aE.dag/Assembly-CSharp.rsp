@@ -363,6 +363,7 @@
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/QuitConfirm.cs"
 "Assets/Scripts/RetryScript.cs"
+"Assets/Scripts/SceneManage.cs"
 "Assets/Scripts/SettingsMenu.cs"
 "Assets/Scripts/VolumeSlider.cs"
 -langversion:9.0
