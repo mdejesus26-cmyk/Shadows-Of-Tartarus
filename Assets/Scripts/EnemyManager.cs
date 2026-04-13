@@ -18,6 +18,7 @@ public class EnemyManager : MonoBehaviour
     public float duration = 5;
     public float magnitude = 5;
     public Vector3 startPos;
+    public bool attackMode = false;
 
 
     // Start is called before the first frame update
