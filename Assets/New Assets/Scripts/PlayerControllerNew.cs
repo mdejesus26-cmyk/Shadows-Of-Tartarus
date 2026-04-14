@@ -8,6 +8,7 @@ public class PlayerControllerNew : MonoBehaviour
     private Rigidbody rb;
     private Vector2 movementInput;
     public GameObject camera;
+    public GameObject battleScene;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,5 +28,10 @@ public class PlayerControllerNew : MonoBehaviour
     void FixedUpdate()
     {
         rb.velocity = movementInput * moveSpeed;
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        battleScene.SetActive(true);
     }
 }
