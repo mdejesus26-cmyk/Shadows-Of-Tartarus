@@ -70,6 +70,7 @@
     <Compile Include="Assets/Scripts/EnemyManager2.cs" />
     <Compile Include="Assets/Scripts/BattleManager.cs" />
     <Compile Include="Assets/Scripts/PauseMenu.cs" />
+    <Compile Include="Assets/New Assets/Scripts/BattleSystem.cs" />
     <Compile Include="Assets/Scripts/LevelSwitch.cs" />
     <Compile Include="Assets/Scripts/EnemyManager.cs" />
     <Compile Include="Assets/New Assets/Scripts/PlayerControllerNew.cs" />
@@ -80,6 +81,7 @@
     <Compile Include="Assets/Scripts/SettingsMenu.cs" />
     <Compile Include="Assets/Scripts/SceneManage.cs" />
     <Compile Include="Assets/Scripts/VolumeSlider.cs" />
+    <Compile Include="Assets/New Assets/Scripts/EnemyScript.cs" />
     <Compile Include="Assets/Scripts/DialogueManager.cs" />
     <Compile Include="Assets/Scripts/PauseSettingsMenu.cs" />
     <Compile Include="Assets/Scripts/MainMenu.cs" />

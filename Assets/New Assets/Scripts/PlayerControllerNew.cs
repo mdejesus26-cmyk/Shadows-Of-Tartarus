@@ -9,6 +9,7 @@ public class PlayerControllerNew : MonoBehaviour
     private Vector2 movementInput;
     public GameObject camera;
     public GameObject battleScene;
+    public BattleSystem battleScript;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,5 +34,13 @@ public class PlayerControllerNew : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         battleScene.SetActive(true);
+    }
+
+    public void Attack()
+    {
+        battleScript.damageAmount = Random.Range(1,5);
+        battleScript.enemyHealth -= battleScript.damageAmount;
+        battleScript.inBattleText.text = "Player slashes enemy! " + battleScript.damageAmount + " damage dealt!";
+
     }
 }
