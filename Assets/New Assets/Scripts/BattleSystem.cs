@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class BattleSystem : MonoBehaviour
 {
@@ -36,6 +37,7 @@ public class BattleSystem : MonoBehaviour
             //enemy.SetActive(false);
             battleScene.SetActive(false);
             player.SetActive(true);
+            SceneManager.LoadScene("Credits");
         }
     }
     
