@@ -27,7 +27,7 @@ public class BattleManager : MonoBehaviour
     public GameObject itemToggle;
     public TMP_Text playerHealthUI;
     public TMP_Text enemyHealthUI;
-    
+    public TMP_Text tutorialText;
     public bool inBattle;
     public TMP_Text battleText;
     public int healAmount;
@@ -41,11 +41,14 @@ public class BattleManager : MonoBehaviour
     public GameObject gameOverScreen;
     public LevelSwitch levelScript;
     public CamShake shakeScript;
+    public GameObject bgMusic;
 
     // Start is called before the first frame update
     void Start()
     {
         gameOverScreen.SetActive(false);
+        bgMusic.SetActive(false);
+        tutorialText.text = "Act quick! Battles are in real-time! Click Attack to attack normally, Magic to open your spells menu, and Item to open your items menu!";
     }
 
     // Update is called once per frame

@@ -10,6 +10,7 @@ public class PlayerControllerNew : MonoBehaviour
     public GameObject camera;
     public GameObject battleScene;
     public BattleSystem battleScript;
+    public GameObject worldMusic;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,6 +35,7 @@ public class PlayerControllerNew : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         battleScene.SetActive(true);
+        worldMusic.SetActive(false);
     }
 
     public void Attack()

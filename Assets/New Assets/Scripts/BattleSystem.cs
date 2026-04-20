@@ -15,9 +15,11 @@ public class BattleSystem : MonoBehaviour
     public GameObject player;
     public GameObject flower;
     public GameObject enemy;
+    public GameObject gameOverScrn;
     public TMP_Text playerHealthText;
     public TMP_Text enemyHealthText;
     public GameObject battleScene;
+    public bool gameOver;
     
     // Start is called before the first frame update
     void Start()
@@ -39,10 +41,17 @@ public class BattleSystem : MonoBehaviour
             player.SetActive(true);
             SceneManager.LoadScene("Credits");
         }
+
+        if (playerHealth < 1)
+        {
+            GameOver();
+        }
     }
     
-    public void StartBattle()
+    public void GameOver()
     {
-       
+        battleScene.SetActive(false);
+        gameOverScrn.SetActive(true);
+        Time.timeScale = 0;
     }
 }
