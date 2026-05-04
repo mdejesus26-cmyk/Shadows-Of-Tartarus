@@ -20,6 +20,8 @@ public class BattleSystem : MonoBehaviour
     public TMP_Text enemyHealthText;
     public GameObject battleScene;
     public bool gameOver;
+    public AudioSource audioSource;
+    public AudioClip lowHealthSound;
     
     // Start is called before the first frame update
     void Start()
@@ -45,6 +47,11 @@ public class BattleSystem : MonoBehaviour
         if (playerHealth < 1)
         {
             GameOver();
+        }
+
+        if (playerHealth <= 3)
+        {
+            //audioSource.PlayOneShot(lowHealthSound, 1);
         }
     }
     

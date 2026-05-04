@@ -5,6 +5,9 @@ using UnityEngine;
 public class EnemyScript : MonoBehaviour
 {
     public BattleSystem battleScript;
+    public AudioSource audioSource;
+    public AudioClip enemyHitSound;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +28,7 @@ public class EnemyScript : MonoBehaviour
             battleScript.damageAmount = Random.Range(1, 3);
             battleScript.playerHealth -= battleScript.damageAmount;
             battleScript.inBattleText.text = "Enemy attacks! " + battleScript.damageAmount + " damage dealt!";
+            audioSource.PlayOneShot(enemyHitSound, 1);
         }
     }
 }

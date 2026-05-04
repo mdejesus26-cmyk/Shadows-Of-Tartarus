@@ -11,6 +11,8 @@ public class PlayerControllerNew : MonoBehaviour
     public GameObject battleScene;
     public BattleSystem battleScript;
     public GameObject worldMusic;
+    public AudioSource audioSource;
+    public AudioClip playerHitSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -43,6 +45,6 @@ public class PlayerControllerNew : MonoBehaviour
         battleScript.damageAmount = Random.Range(1,5);
         battleScript.enemyHealth -= battleScript.damageAmount;
         battleScript.inBattleText.text = "Player slashes enemy! " + battleScript.damageAmount + " damage dealt!";
-
+        audioSource.PlayOneShot(playerHitSound, 1);
     }
 }
