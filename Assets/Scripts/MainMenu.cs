@@ -16,7 +16,7 @@ public class MainMenu : MonoBehaviour
     {
         startButton.onClick.AddListener(Play);
         settingsButton.onClick.AddListener(Settings);
-        quitButton.onClick.AddListener(Quit);
+        //quitButton.onClick.AddListener(Quit);
     }
 
     // Update is called once per frame
@@ -36,9 +36,9 @@ public class MainMenu : MonoBehaviour
         settingsMenu.SetActive(true);
     }
 
-    public void Quit()
-    {
-        UnityEditor.EditorApplication.isPlaying = false;
-    }
+    //public void Quit()
+    //{
+        //UnityEditor.EditorApplication.isPlaying = false;
+    //}
 
 }
