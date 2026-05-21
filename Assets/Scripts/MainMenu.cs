@@ -36,9 +36,10 @@ public class MainMenu : MonoBehaviour
         settingsMenu.SetActive(true);
     }
 
-    //public void Quit()
-    //{
-        //UnityEditor.EditorApplication.isPlaying = false;
-    //}
+    public void Quit()
+    {
+        Application.Quit();
+        Debug.Log("Quit successfuly called");
+    }
 
 }
