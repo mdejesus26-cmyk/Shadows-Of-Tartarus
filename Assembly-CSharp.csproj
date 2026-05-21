@@ -69,6 +69,7 @@
     <Compile Include="Assets/Scripts/RetryScript.cs" />
     <Compile Include="Assets/Scripts/EnemyManager2.cs" />
     <Compile Include="Assets/New Assets/Scripts/Restart.cs" />
+    <Compile Include="Assets/New Assets/Scripts/CreditsQuit.cs" />
     <Compile Include="Assets/Scripts/BattleManager.cs" />
     <Compile Include="Assets/Scripts/PauseMenu.cs" />
     <Compile Include="Assets/New Assets/Scripts/BattleSystem.cs" />

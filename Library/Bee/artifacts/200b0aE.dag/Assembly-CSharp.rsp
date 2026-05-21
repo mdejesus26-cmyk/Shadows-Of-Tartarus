@@ -345,6 +345,7 @@
 -analyzer:"/Applications/Unity/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/New Assets/Scripts/BattleSystem.cs"
+"Assets/New Assets/Scripts/CreditsQuit.cs"
 "Assets/New Assets/Scripts/EnemyScript.cs"
 "Assets/New Assets/Scripts/PlayerControllerNew.cs"
 "Assets/New Assets/Scripts/Restart.cs"
