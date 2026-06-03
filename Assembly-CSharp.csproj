@@ -65,6 +65,7 @@
   <ItemGroup>
     <Compile Include="Assets/Scripts/CamShake.cs" />
     <Compile Include="Assets/Scripts/GameManager.cs" />
+    <Compile Include="Assets/New Assets/Scripts/Rewind.cs" />
     <Compile Include="Assets/Scripts/DeckSO.cs" />
     <Compile Include="Assets/Scripts/RetryScript.cs" />
     <Compile Include="Assets/Scripts/EnemyManager2.cs" />
@@ -77,6 +78,7 @@
     <Compile Include="Assets/Scripts/EnemyManager.cs" />
     <Compile Include="Assets/New Assets/Scripts/PlayerControllerNew.cs" />
     <Compile Include="Assets/Scripts/CardSO.cs" />
+    <Compile Include="Assets/Scripts/GameOverRestart.cs" />
     <Compile Include="Assets/Scripts/CardManager.cs" />
     <Compile Include="Assets/Scripts/PlayerController.cs" />
     <Compile Include="Assets/Scripts/DialoguePopup.cs" />

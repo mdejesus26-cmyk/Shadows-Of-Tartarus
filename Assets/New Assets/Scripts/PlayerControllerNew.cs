@@ -27,6 +27,22 @@ public class PlayerControllerNew : MonoBehaviour
         movementInput.y = Input.GetAxisRaw("Vertical");
         // Either the inputs W/S or the vertical arrow keys can work.
         //camera.transform.position = new Vector3(transform.position.x, transform.position.y, -15.39f);
+        if (transform.position.x >= 10)
+        {
+            transform.position = new Vector3 (10, transform.position.y, transform.position.z);
+        }
+        if (transform.position.x <= -10)
+        {
+            transform.position = new Vector3 (-10, transform.position.y, transform.position.z);
+        }
+        if (transform.position.y >= 6.5f)
+        {
+            transform.position = new Vector3 (transform.position.x, 6.5f, transform.position.z);
+        }
+        if (transform.position.y <= -4.2f)
+        {
+            transform.position = new Vector3 (transform.position.x, -4.2f, transform.position.z);
+        }
     }
 
     void FixedUpdate()

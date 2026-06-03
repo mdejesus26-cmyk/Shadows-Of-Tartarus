@@ -78,7 +78,9 @@ public class BattleManager : MonoBehaviour
 
         if (playerHealth < 1)
         {
+            playerHealth = 0;
             gameOverScreen.SetActive(true);
+            Time.timeScale = 0;
         }
 
 
